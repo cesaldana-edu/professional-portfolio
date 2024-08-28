@@ -8,34 +8,10 @@
     <style>
         #intro { 
             padding-bottom: 0; 
-            line-height: 1.7em;
-        }
-        #resume > section:not(#intro) { 
-            padding: 0; 
-            line-height: 1.7em;
+            line-height: 1.3em;
         }
         #resume > section ul {
             padding-left: 1em;
-        }
-        #resume > section article {
-            margin: 1.6em auto;
-        }
-        .download-btn {
-            background-color: #ea8f10;
-            border: none;
-            color: white;
-            width: 100%;
-            padding: 15px 32px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            margin: 4em auto 2em auto;
-            cursor: pointer;
-            border-radius: 4px;
-        }
-        .download-btn:hover {
-            background-color: #ea8f10;
         }
     </style>
 </head>
@@ -61,115 +37,120 @@
     </header>
 
     <main id="resume">
-        <section id="intro">
-            <p class="pretitle orange">Resume/CV</p>        
-            <article>
-                <h2>Datos Personales</h2>
-                <p><strong>Nombre:</strong> Laura Martinez</p>
-                <p><strong>Email:</strong> laura.martinez@abc-marketing.com</p>
-                <p><strong>Teléfono:</strong> (+54) 11 4523-4567</p>
-            </article>    
-            <p>Soy una especialista en Marketing Digital con más de 10 años de experiencia en departamentos de marketing de grandes compañías y startups de rápido crecimiento. Durante mi carrera he formado parte y liderado equipos de marketing multidisciplinares en Email Marketing, Paid Media, SEM y Social Ads.</p>      
-        </section>
-        <section id="skills">
-            <h2>Habilidades</h2>
-            <ul>
-                <li>Estrategias SEO y SEM</li>
-                <li>CRM</li>
-                <li>Análisis de datos</li>
-                <li>Marketing en Redes sociales</li>
-                <li>Google Analytics</li>
-                <li>Marketing de contenidos</li>
-                <li>Email Marketing</li>
-                <li>Diseño</li>
-                <li>Publicidad Paga</li>
-            </ul>
-        </section>
-        <section id="experience">
-            <h2>Experiencia Profesional</h2>
-                <article class="job-position">
-                    <h3>Gerente de Marketing</h3>
-                    <p class="orange">Agencia Coven | 2021 - Actualidad</p>
-                    <p><em>Responsabilidades:</em></p>
+        <section id="intro" class="bg-light grid-container-2">
+            <div class="left">
+                <p class="pretitle orange">Resume/CV</p>        
+                <h1 class="title">Mi CV</h1>
+    
+                <a href="Laura-Martinez-CV.pdf" target="_blank" download="Laura-Martinez-CV.pdf">
+                    <button class="download-btn">Descargar en PDF</button>
+                </a>
+            </div>
+            <div class="right">
+                <article id="contact-info" class="item">
+                    <h2>Datos Personales</h2>
+                    <p><strong>Nombre:</strong> Laura Martinez</p>
+                    <p><strong>Email:</strong> laura.martinez@abc-marketing.com</p>
+                    <p><strong>Teléfono:</strong> (+54) 11 4523-4567</p>
+                    <p>Soy una especialista en Marketing Digital con más de 10 años de experiencia en departamentos de marketing de grandes compañías y startups de rápido crecimiento. Durante mi carrera he formado parte y liderado equipos de marketing multidisciplinares en Email Marketing, Paid Media, SEM y Social Ads.</p>      
+                </article>
+
+                <article id="skills" class="item">
+                    <h2>Habilidades</h2>
                     <ul>
-                        <li>Desarrollo e implementación de estrategias de marketing digital de línea de productos de cuidado personal.</li>
-                        <li>Supervisión de equipo marketing digital.</li>
-                        <li>Gestión de presupuesto de marketing digital para línea asignada.</li>
-                        <li>Planificar, diseñar, segmentar y programar campañas en Instagram y Facebook.</li>
+                        <li>Estrategias SEO y SEM</li>
+                        <li>CRM</li>
+                        <li>Análisis de datos</li>
+                        <li>Marketing en Redes sociales</li>
+                        <li>Google Analytics</li>
+                        <li>Marketing de contenidos</li>
+                        <li>Email Marketing</li>
+                        <li>Diseño</li>
+                        <li>Publicidad Paga</li>
                     </ul>
                 </article>
 
-                <article class="job-position">
-                    <h3>Especialista en Marketing Digital</h3>
-                    <p class="orange">Intermedia | 2018 - 2021</p>
-                    <p><em>Responsabilidades:</em></p>
+                <article id="jobs" class="item">
+                    <h2>Experiencia Profesional</h2>
+                    <article class="subitem">
+                        <h4>Gerente de Marketing</h4>
+                        <p class="orange">Agencia Coven | 2021 - Actualidad</p>
+                        <p><em>Responsabilidades:</em></p>
+                        <ul>
+                            <li>Desarrollo e implementación de estrategias de marketing digital de línea de productos de cuidado personal.</li>
+                            <li>Supervisión de equipo marketing digital.</li>
+                            <li>Gestión de presupuesto de marketing digital para línea asignada.</li>
+                            <li>Planificar, diseñar, segmentar y programar campañas en Instagram y Facebook.</li>
+                        </ul>
+                    </article>
+                    <article class="subitem">
+                        <h4>Especialista en Marketing Digital</h4>
+                        <p class="orange">Intermedia | 2018 - 2021</p>
+                        <p><em>Responsabilidades:</em></p>
+                        <ul>
+                            <li>Ejecución de campañas digitales.</li>
+                            <li>Gestión de presencia en redes sociales.</li>
+                            <li>Planificación y diseño de campañas de búsqueda en Google Ads y Microsoft Ads y Apple Search Ads.</li>
+                            <li>Diseño y optimización de campañas de Social Ads en Facebook e Instagram vía FacebookAds, Youtube, Snapchat Ads y Tik-Tok.</li>
+                        </ul>
+                    </article>
+                    <article class="subitem">
+                        <h4>Analista de Marketing</h4>
+                        <p class="orange">ArgVNet | 2016 - 2018</p>
+                        <p><em>Responsabilidades:</em></p>
+                        <ul>
+                            <li>Evaluación de volúmenes de búsqueda y oportunidades vía Keyword Research extensivo.</li>
+                            <li>Investigación de mercado, análisis de datos, desarrollo de estrategias.</li>
+                            <li>Configuración y mejora de cuadros de reporting con el departamento de Data Discover.</li>
+                            <li>Testear y detectar oportunidades de negocio en nuevos formatos de anuncios across channels.</li>
+                        </ul>
+                    </article>
+                    <article class="subitem">
+                        <h4>Asistente de Marketing</h4>
+                        <p class="orange">Univeler | 2014 - 2016</p>
+                        <p><em>Responsabilidades:</em></p>
+                        <ul>
+                            <li>Gestión de bases de datos, coordinación de eventos, creación de contenido básico.</li>
+                            <li>Proponer tests A/B y realizar seguimiento de los resultados.</li>
+                        </ul>
+                    </article>
+                </article>
+    
+                <article id="education" class="item">
+                    <h2>Educación</h2>
+                    <article class="subitem">
+                        <h4>MBA en Marketing</h4>
+                        <p class="orange"><em>Universidad de Belgrano (2018)</em></p>
+                        <ul>
+                            <li>Enfoque en estrategias de marketing digital y análisis de datos.</li>
+                            <li>Proyecto final: “Estrategias de Marketing Nocturno para Empresas de Cosmética”.</li>
+                        </ul>
+                    </article>
+                    <article class="subitem">
+                        <h4>Licenciatura en Comercialización (Marketing)</h4>
+                        <p class="orange"><em>Universidad Abierta Interamericana (2012)</em></p>
+                    </article>
+                </article>
+    
+                <article id="certifications" class="item">
+                    <h2>Certificaciones</h2>
                     <ul>
-                        <li>Ejecución de campañas digitales.</li>
-                        <li>Gestión de presencia en redes sociales.</li>
-                        <li>Planificación y diseño de campañas de búsqueda en Google Ads y Microsoft Ads y Apple Search Ads.</li>
-                        <li>Diseño y optimización de campañas de Social Ads en Facebook e Instagram vía FacebookAds, Youtube, Snapchat Ads y Tik-Tok.</li>
+                        <li>Google Analytics Certified (2021)</li>
+                        <li>Certified Digital Marketing Professional (CDMP) (2020)</li>
                     </ul>
                 </article>
-
-                <article class="job-position">
-                    <h3>Analista de Marketing</h3>
-                    <p class="orange">ArgVNet | 2016 - 2018</p>
-                    <p><em>Responsabilidades:</em></p>
+        
+                <article id="languages" class="item">
+                    <h2>Idiomas</h2>
                     <ul>
-                        <li>Evaluación de volúmenes de búsqueda y oportunidades vía Keyword Research extensivo.</li>
-                        <li>Investigación de mercado, análisis de datos, desarrollo de estrategias.</li>
-                        <li>Configuración y mejora de cuadros de reporting con el departamento de Data Discover.</li>
-                        <li>Testear y detectar oportunidades de negocio en nuevos formatos de anuncios across channels.</li>
+                        <li>Español (nativo)</li>
+                        <li>English (avanzado)</li>
                     </ul>
                 </article>
-
-                <article class="job-position">
-                    <h3>Asistente de Marketing</h3>
-                    <p class="orange">Univeler | 2014 - 2016</p>
-                    <p><em>Responsabilidades:</em></p>
-                    <ul>
-                        <li>Gestión de bases de datos, coordinación de eventos, creación de contenido básico.</li>
-                        <li>Proponer tests A/B y realizar seguimiento de los resultados.</li>
-                    </ul>
-                </article>
-
-            </section>
-        <section id="education">
-            <h2>Educación</h2>
-            <article class="item">
-                <h4>MBA en Marketing</h4>
-                <p class="orange"><em>Universidad de Belgrano (2018)</em></p>
-                <ul>
-                    <li>Enfoque en estrategias de marketing digital y análisis de datos.</li>
-                    <li>Proyecto final: “Estrategias de Marketing Nocturno para Empresas de Cosmética”.</li>
-                </ul>
-            </article>
-            <article class="item">
-                <h4>Licenciatura en Comercialización (Marketing)</h4>
-                <p class="orange"><em>Universidad Abierta Interamericana (2012)</em></p>
-            </article>
-        </section>
-
-        <section id="certifications">
-            <h2>Certificaciones</h2>
-            <ul>
-                <li>Google Analytics Certified (2021)</li>
-                <li>Certified Digital Marketing Professional (CDMP) (2020)</li>
-            </ul>
-        </section>
-
-        <section id="languages">
-            <h2>Idiomas</h2>
-            <ul>
-                <li>Español (nativo)</li>
-                <li>English (avanzado)</li>
-            </ul>
-
-            <a href="Laura-Martinez-CV.pdf" target="_blank" download="Laura-Martinez-CV.pdf">
-                <button class="download-btn">Descargar en PDF</button>
-            </a>
+            </div>
         </section>
     </main>
+
     <footer class="footer">  
         <div class="social-media">
             <a href="https://www.facebook.com" target="_blank">
