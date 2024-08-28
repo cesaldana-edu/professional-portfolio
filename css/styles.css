@@ -96,9 +96,9 @@ section { padding: 3em; }
 
     /* MENU */
     .navbar { display: flex; justify-content: space-between; align-items: center; padding: 1.7rem 5rem; }   
-    .nav-menu { display: flex; justify-content: space-between; align-items: center; border: none; position: unset; flex-direction: row; background-color: transparent; width: unset; }
-    .nav-menu li { margin-left: 4em; margin-bottom: 0;  border: none;}
-    .nav-menu li a { font-size: 1.1em;}
+    .nav-menu { display: flex; justify-content: space-between; align-items: center; border: none; position: unset; flex-direction: row; background-color: transparent; width: unset; box-shadow: 0 10px 27px rgba(0, 0, 0, 0.03);}
+    .nav-menu li { margin-left: 4em; margin-bottom: 0; border: none; background-color: #242525; }
+    .nav-menu li a { font-size: 1.1em; color: #f4f4f4;}
     .nav-icon { display: none; }
 
 
